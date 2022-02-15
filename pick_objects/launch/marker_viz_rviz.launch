@@ -1,0 +1,6 @@
+<!--
+Same as the view_navigation.launch in turtlebot_rviz_launchers, but this has automatic marker visualization
+-->
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find pick_objects)/rvizConfig/home_service_visualization_marker_config.rviz"/>
+</launch>

@@ -1,0 +1,53 @@
+Bottom Middle (halfway down the bottom hallway)
+
+header:
+  seq: 0
+  stamp: 
+    secs: 1011
+    nsecs: 525000000
+  frame_id: "map"
+point: 
+  x: 2.68486404419
+  y: -2.00983738899
+  z: -0.00143432617188
+---
+Middle of middle hallway
+
+header:
+  seq: 2
+  stamp:
+    secs: 1172
+    nsecs: 218000000
+  frame_id: "map"
+point:
+  x: -0.264844030142
+  y: 1.36253643036
+  z: -0.00137329101562
+---
+
+Top Left
+
+header: 
+  seq: 1
+  stamp: 
+    secs: 1068
+    nsecs: 898000000
+  frame_id: "map"
+point: 
+  x: -0.133507564664
+  y: 4.03573846817
+  z: -0.00137329101562
+---
+
+End of top hallway (on the right)
+header:
+  seq: 3
+  stamp:
+    secs: 1232
+    nsecs: 809000000
+  frame_id: "map"
+point:
+  x: 4.94279050827
+  y: 3.93585276604
+  z: -0.00143432617188
+---
