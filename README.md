@@ -65,11 +65,7 @@ alias ss="source devel/setup.bash"
 Clone the github repo and copy folders into the catkin/src directory:
 ```
 cd ~/catkin_ws
-git clone https://github.com/Wubuntu88/UdacityRobotics-home-service-robot.git
-cp -R UdacityRobotics-home-service-robot/map src/
-cp -R UdacityRobotics-home-service-robot/pick_objects src/
-cp -R UdacityRobotics-home-service-robot/add_markers src/
-```
+git clone https://github.com/ppujari/Home_Service_Robot
 
 You will need to rebuild the project:
 ```
@@ -83,7 +79,7 @@ Run the test_slam.sh file and create a map by looking at RViz so that it looks l
 When the RViz display looks like the Gazebo display, run the mapsaver command:
 ```bash
 cd ~/catkin_ws
-bash UdacityRobotics-home-service-robot/scripts/test_slam.sh
+bash Home_Service_Robot/scripts/test_slam.sh
 ```
 ```bash
 rosrun map_server map_saver
@@ -92,7 +88,7 @@ to get a map.pgm and map.yaml file.
 the map.yaml file is referenced in the test_navigation.sh script.
 
 The map is located here and is used in the start scripts:
-https://github.com/Wubuntu88/UdacityRobotics-home-service-robot/tree/main/pick_objects/map
+https://github.com/ppujari/Home_Service_Robot/tree/main/pick_objects/map
 
 Here is a visualization of what the map looks like in RViz:
 ![test slam map](images/test_slam_map.png)
@@ -108,7 +104,7 @@ The `home_service_robot.sh` will launch:
 ```bash
 cd ~/catkin_ws
 source devel/setup.bash
-bash UdacityRobotics-home-service-robot/scripts/home_service_robot.sh
+bash Home-Service-Robot/scripts/home_service_robot.sh
 ```
 
 The user can also run the `test_slam.sh`, `test_navigation.sh` scripts,
