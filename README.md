@@ -1,4 +1,4 @@
-## UdacityRobotics-home-service-robot
+## home-service-robot
 Project 5 of term 1 of the Udacity Robotics Nanodegree
 
 In this project, a robot is moved from a start position to a pickup position, 
