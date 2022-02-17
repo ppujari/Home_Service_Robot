@@ -23,7 +23,5 @@ sleep 5
 # ADD_MARKERS c++ node.  This will add a marker at the pickup zone.
 # Delete the marker when the robot reaches the pickup zone,
 # and add the marker at the drop-off zone when the robot arrives at the drop-off zone.
-xterm -e "rosrun add_markers add_markers"
-sleep 5
 xterm  -e  "rosrun add_markers add_markers_based_on_time"
 
